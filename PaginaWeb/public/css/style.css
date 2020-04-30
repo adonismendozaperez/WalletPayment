@@ -3562,9 +3562,9 @@ input[type="button"].btn-block {
       color: rgba(0, 0, 0, 0.9); }
 
 .navbar-dark .navbar-brand {
-  color: #fff; }
+  color: #000000; }
   .navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
-    color: #fff; }
+    color: #000000; }
 
 .navbar-dark .navbar-nav .nav-link {
   color: rgba(255, 255, 255, 0.5); }
@@ -3577,7 +3577,7 @@ input[type="button"].btn-block {
 .navbar-dark .navbar-nav .active > .nav-link,
 .navbar-dark .navbar-nav .nav-link.show,
 .navbar-dark .navbar-nav .nav-link.active {
-  color: #fff; }
+  color: #000000; }
 
 .navbar-dark .navbar-toggler {
   color: rgba(255, 255, 255, 0.5);
@@ -7318,14 +7318,14 @@ h1, h2, h3, h4, h5,
   z-index: 3; }
   @media (max-width: 991.98px) {
     .ftco-navbar-light {
-      background: #000000 !important;
+      background: #fff !important;
       position: relative;
       top: 0; } }
   .ftco-navbar-light .navbar-brand {
     color: #000000; }
     @media (max-width: 991.98px) {
       .ftco-navbar-light .navbar-brand {
-        color: #fff; } }
+        color: #000000; } }
   @media (max-width: 991.98px) {
     .ftco-navbar-light .navbar-nav {
       padding-bottom: 10px; } }
@@ -7424,7 +7424,7 @@ h1, h2, h3, h4, h5,
       color: #6b76ff !important; }
     .ftco-navbar-light.scrolled .nav-item.cta > a {
       color: #fff !important;
-      background: #6b76ff;
+      background: #DA2D2D;
       border: none !important;
       padding-top: 0.5rem !important;
       padding-bottom: .5rem !important;
@@ -7518,7 +7518,12 @@ h1, h2, h3, h4, h5,
   -webkit-text-fill-color: transparent; }
   @media (max-width: 991.98px) {
     .slider-text h1 {
-      font-size: 40px; } }
+      font-size: 40px;margin-top: 60px; } 
+      .img_money{
+        background-position: 45% 37px !important;
+        background-size: 100%;
+      }
+    }
   .slider-text h1 span {
     font-size: 54px;
     font-weight: 700; }
@@ -7982,7 +7987,7 @@ h1, h2, h3, h4, h5,
     background-position: center center;
     position: relative;
     padding: 4em 0;
-    background: #6b76ff; }
+    background: #DA2D2D; }
   .ftco-section-parallax .heading-section-white h2 {
     font-weight: 400 !important; }
 
@@ -8389,7 +8394,8 @@ textarea.form-control {
 #section-counter {
   position: relative;
   margin-top: 50px;
-  z-index: 0; }
+  z-index: 0;
+  height: 80vh;}
   #section-counter:after {
     position: absolute;
     top: 0;
@@ -8697,8 +8703,9 @@ textarea.form-control {
       color: rgba(0, 0, 0, 0.7) !important; }
   .subscribe-form .form-group .submit {
     color: #fff !important;
-    background: #3847ff !important;
+    background: #DA2D2D !important;
     border-radius: 0px 5px 5px 0px;
+    border-color: #fff;
     font-size: 16px; }
     .subscribe-form .form-group .submit:hover {
       cursor: pointer; }
